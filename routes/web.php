@@ -22,3 +22,6 @@ Route::get('/login', function () {
 Route::get('/warehouse', function () {
     return view('dashboard.warehouse.index');
 });
+Route::get('/cabang', function () {
+    return view('dashboard.cabang.index');
+});
