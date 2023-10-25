@@ -25,3 +25,6 @@ Route::get('/warehouse', function () {
 Route::get('/cabang', function () {
     return view('dashboard.cabang.index');
 });
+Route::get('/warehouse/tambah', function () {
+    return view('dashboard.warehouse.create');
+});

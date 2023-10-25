@@ -14,13 +14,11 @@
     <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
   </head>
   <body class="m-0 font-sans antialiased font-normal bg-white text-start text-base leading-default text-slate-500">
-    @include('layouts.partial.login.navbar')
     <main class="mt-0 transition-all duration-200 ease-soft-in-out">
       <section>
         @yield('content')
       </section>
     </main>
-    @include('layouts.partial.login.footer')
   </body>
-  @include('layouts.partial.login.script')
+  @include('layouts.partial.script')
 </html>
